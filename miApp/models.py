@@ -10,4 +10,12 @@ class Todo(models.Model):
     def __str__(self):
         return self.titulo
     
+## Creacion y eliminacion de una tarea
+## Al hacer click en un boton para completar, el estado de la tarea se cambia
+## Conexion a una base de datos externa -> Oracle
+## Uso de variables de entorno con django.environ
+## gitignore
+## subir a github
+
+    
     
